@@ -1,0 +1,149 @@
+.primera-pregunta__encuesta {
+  display: grid;
+  flex-wrap: wrap;
+  width: 100%;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 20px;
+}
+
+
+.opcion__encuesta {
+  display: flex;
+	height: 150px;
+  width: 100%;
+
+	gap: 20px;
+
+  background-color: white;
+  border-radius: 10px;
+
+  color: white;
+	text-align: center;
+
+	align-items: center;
+  color: black;
+  transition: all .5s ease;
+}
+
+
+.literal-opciones__encuesta {
+  position: relative;
+	display: flex;
+	height: 100%;
+	width: 40px;
+
+	background-color: aqua;
+	border-radius: 10px 0px 0px 10px;
+
+	align-items: center;
+	justify-content: center;
+
+  font-size: 24px;
+  font-weight: bold;
+
+}
+
+/* ////////////////////////////////////////////////////////////  */
+
+.literal-a:hover {
+  background-color: rgba(236, 236, 28, 0.311);
+  
+}
+
+.literal-A {
+  background-color: rgba(233, 233, 24, 0.683);
+}
+
+/* ---------------------------------------------------------  */
+
+.literal-b:hover {
+  background-color: rgba(18, 186, 186, 0.406);
+}
+
+.literal-B {
+  background-color: rgba(17, 197, 197, 0.823);
+}
+
+/* ------------------------------------------------------------  */
+
+.literal-c:hover {
+  background-color: rgba(159, 44, 44, 0.366);
+}
+
+.literal-C {
+  background-color: rgba(159, 44, 44, 0.825);
+}
+
+/* ---------------------------------------------------------------  */
+
+.literal-d:hover {
+  background-color: rgba(137, 43, 226, 0.343);
+}
+
+.literal-D {
+  background-color: rgba(137, 43, 226, 0.769);
+}
+
+/* -----------------------------------------  */
+
+/* ///////////////////////////////////////////////////////////  */
+
+.A {
+  background-color: rgb(187, 187, 41);
+}
+
+.B {
+  background-color: darkcyan;
+}
+
+
+.C {
+  background-color: rgb(159, 44, 44);
+}
+
+
+.D {
+  width: 50px;
+  background-color: blueviolet;
+}
+
+
+
+.input-opciones__encuesta {
+  position: absolute;
+  top: 10px;
+  width: 15px;
+  height: 15px;
+}
+
+/* PRIMERA PREGUNTA  */
+
+.input-opciones__encuesta-oculto {
+  display: none;
+}
+
+
+
+/* Estilos para ocultar y mostrar  */
+
+
+
+
+.pregunta-desactiva {
+  display: none;
+}
+
+
+/* .pregunta-activa {
+
+} */
+
+
+
+
+
+
+
+
+

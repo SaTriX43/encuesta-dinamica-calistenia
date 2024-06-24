@@ -1,23 +1,40 @@
-import logo from './logo.svg';
+import { useState } from 'react';
 import './App.css';
+import Biendvenida from './componentes/bienvenida';
+import Loader from './componentes/loader';
+import Encuesta from './componentes/encuesta';
+
 
 function App() {
+
+  const [loader, setLoader] = useState(false)
+  const [mostrarEncuesta , setMostrarEncuesta] = useState(false)
+
+  
+  const comenzar = () => {
+
+    setTimeout(()=> {
+      setLoader(true)
+      setTimeout(()=> {
+        setLoader(false)
+        setMostrarEncuesta(true)
+      },3000)
+    },1000)
+    
+  }
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div className="fondo"></div>
+      <Biendvenida
+        handleComenzar={comenzar}
+      />
+      
+      {loader && <Loader />}
+
+      <Encuesta
+        valor = {mostrarEncuesta}
+      />
     </div>
   );
 }

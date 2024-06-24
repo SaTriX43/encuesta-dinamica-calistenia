@@ -1,0 +1,28 @@
+.seccion-pregunta__encuesta {
+  position: absolute;
+  display: flex;
+  width: 99vw;
+  height: 20%;
+  top: 0;
+  margin: auto;
+  background-color: rgb(234, 248, 227);
+  border-radius: 10px;
+  border: 2px solid green;
+  align-items: center;
+  justify-content: center;
+
+  transition: all 1s ease;
+}
+
+.pregunta-oculto {
+  position: absolute;
+  visibility: none;
+  transform: translateY(-100%);
+  z-index: -1;
+}
+
+.pregunta-activo {
+  visibility: visible;
+  transform: translateY(0%);
+  z-index: -1;
+}

@@ -1,0 +1,163 @@
+.seccion__bienvenida {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  min-height: 100vh;
+}
+/* fondo  */
+
+
+/* Header  */
+
+.header__bienvenida {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  min-height: 50vh;
+
+  align-items: center;
+
+  z-index: 10;
+  color: white;
+  transition: all 1s ease;
+}
+
+.icono__bienvenida {
+  display: flex;
+  width: 70px;
+  height: 70px;
+
+  margin-top: 50px;
+  background-color: rgb(88, 118, 42);
+  border-radius: 20px 40px 10px 60px;
+
+  align-items: center;
+  justify-content: center;
+
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.container-titulo__bienvenida {
+  display: flex;
+  width: 50%;
+  min-height: 60px;
+
+  margin-top: 60px;
+  gap: 20px;
+
+  align-items: center;
+  justify-content: center;
+}
+
+
+.container-imagen__bienvenida {
+  display: flex;
+  width: 100px;
+  height: 100px;
+}
+
+.imagen__bienvenida {
+  width: 100%;
+}
+
+.text-test__bienvenida {
+  color: rgb(35, 193, 35);
+  font-size: 20px;
+  font-weight: 600;
+}
+
+
+/* FOOTER  */
+
+.footer__bienvenida {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  min-height: 50vh;
+
+  background-color: rgb(96, 141, 29);
+  border-top: 2px solid white;
+  border-radius: 50px 50px 0px 0px;
+  
+  align-items: center;
+  z-index: 10;
+  transition: all 1s ease;
+}
+
+.container-icon-enlace__bienvenida {
+  display: flex;
+  width: 100%;
+  min-height: 60px;
+
+  gap:10px;
+  margin-top: 50px;
+
+  justify-content: center;
+  align-items: center;
+}
+
+.icono-user__bienvenida {
+  display: flex;
+  width: 20px;
+  height: 20px;
+
+  padding: 10px;
+
+  background-color: rgb(193, 189, 189);
+  border-radius: 50%;
+
+  align-items: center;
+  justify-content: center;
+
+}
+
+.enlace-form__bienvenida {
+  color: white;
+  text-decoration: none;
+  font-size: 23px;
+  font-weight: 600;
+}
+
+.boton__bienvenida {
+  display: flex;
+  width: 250px;
+  height: 60px;
+
+  gap: 10px;
+  margin-top: 20px;
+
+  border-radius: 40px;
+  background-color: rgb(226, 182, 39);
+  border: none;
+
+  align-items: center;
+  justify-content: center;
+
+  font-size: 25px;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.boton__bienvenida:hover {
+  background-color: rgb(120, 97, 22);
+  color: white;
+}
+
+
+/* clases oculto  */
+
+/* header  */
+.header__bienvenida-oculto {
+  position: absolute;
+  transform: translateY(-100%);
+  visibility: hidden;
+}
+
+.footer__bienvenida-oculto {
+  position: absolute;
+  transform: translateY(100%);
+  visibility: hidden;
+  bottom: 0;
+}
