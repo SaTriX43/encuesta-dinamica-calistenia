@@ -1,4 +1,4 @@
-.primera-pregunta__encuesta {
+.pregunta__encuesta {
   display: grid;
   flex-wrap: wrap;
   width: 100%;
@@ -31,7 +31,8 @@
   position: relative;
 	display: flex;
 	height: 100%;
-	width: 40px;
+	min-width: 40px;
+  max-width: 40px;
 
 	background-color: aqua;
 	border-radius: 10px 0px 0px 10px;
@@ -104,10 +105,8 @@
 
 
 .D {
-  width: 50px;
   background-color: blueviolet;
 }
-
 
 
 .input-opciones__encuesta {
@@ -117,27 +116,7 @@
   height: 15px;
 }
 
-/* PRIMERA PREGUNTA  */
 
-.input-opciones__encuesta-oculto {
-  display: none;
-}
-
-
-
-/* Estilos para ocultar y mostrar  */
-
-
-
-
-.pregunta-desactiva {
-  display: none;
-}
-
-
-/* .pregunta-activa {
-
-} */
 
 
 

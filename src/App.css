@@ -7,14 +7,33 @@
 body {
   font-size: 18px;
   font-family: sans-serif;
-  overflow: hidden;
   
+  overflow: hidden;
+
   background: radial-gradient(circle,
     rgb(85, 143, 85),
     rgb(7, 57, 7),
     rgb(7, 34, 7)
     
   );
+}
+
+.body-scrollbar {
+  overflow-y: auto;
+}
+
+::-webkit-scrollbar {
+  background-color: #2c8d32a0;
+  color: green;
+}
+
+::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #2c8d32; /* Color del pulgar (thumb) de la scrollbar */
+  border-radius: 6px; /* Bordes redondeados del pulgar */
 }
 
 .App {

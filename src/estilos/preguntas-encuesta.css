@@ -13,16 +13,3 @@
 
   transition: all 1s ease;
 }
-
-.pregunta-oculto {
-  position: absolute;
-  visibility: none;
-  transform: translateY(-100%);
-  z-index: -1;
-}
-
-.pregunta-activo {
-  visibility: visible;
-  transform: translateY(0%);
-  z-index: -1;
-}

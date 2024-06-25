@@ -1,10 +1,10 @@
 import '../estilos/preguntas-encuesta.css'
 
-function Preguntas({className, pregunta}) {
+function Preguntas({pregunta}) {
 
   return(
     <section 
-      className={`seccion-pregunta__encuesta ${className}`}
+      className={`seccion-pregunta__encuesta`}
     >
        <h3>{pregunta}</h3>
     </section>

@@ -1,3 +1,4 @@
+// importamos 
 import React from "react";
 import {useRef} from 'react';
 import "../estilos/bienvenida.css"
@@ -6,15 +7,17 @@ import { faUser , faPlay } from "@fortawesome/free-solid-svg-icons";
 import TareaIcon from '../imagenes/tarea-icon.png'
 
 
-function Biendvenida({handleComenzar}) {
-
+function Biendvenida({handleComenzar}) {//resive prop
+  // definimos variables 
   const headerRef = useRef(null) 
   const footerRef = useRef(null)
 
+  // funcion que maneja click 
   function handleClick() {
+    // agrega clases  a header y footer
     headerRef.current.classList.add('header__bienvenida-oculto');
     footerRef.current.classList.add('footer__bienvenida-oculto')
-    handleComenzar()
+    handleComenzar()//llama a funcion comenzar()
   }
 
   return(
@@ -47,7 +50,7 @@ function Biendvenida({handleComenzar}) {
             />
             <a href="#" className="enlace-form__bienvenida">Pulse aqui para identificarse</a>
         </div>
-        <button className="boton__bienvenida" onClick={handleClick}>
+        <button className="boton__bienvenida" onClick={handleClick}>{/*llama a funcion handleClick()*/}
             <FontAwesomeIcon
               icon={faPlay}
               className="icono-play__bienvenida"

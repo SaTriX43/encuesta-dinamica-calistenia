@@ -1,0 +1,157 @@
+.seccion-resultado {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  min-height: 100vh;
+
+  top: 0;
+
+  background: linear-gradient(
+    rgba(6, 43, 6, 0.793),
+    rgba(10, 94, 10, 0.443),
+    rgba(10, 94, 10, 0.262)
+  );
+
+  align-items: center;
+  transform: translateY(-100%);
+  transition: all 1s ease;
+}
+
+.seccion-resultado-mostrar {
+  transform: translateY(0%);
+}
+
+.encabezado-resultado {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  min-height: 250px;
+
+  
+  /* background-color: aqua; */
+
+  align-items: center;
+}
+
+
+.encabezado-resultado h1 {
+  margin-top: 40px;
+  font-size: 80px;
+  font-weight: 1000;
+  color: rgb(200, 225, 175);
+}
+
+.encabezado-resultado hr {
+  width: 100%;
+  height: 3px;
+
+  background-color: rgb(200, 225, 175);
+}
+
+.container-puntos__resultado {
+  display: flex;
+  width: 100%;
+
+  margin-top: 20px;
+
+  color: rgb(200, 225, 175);
+
+  justify-content: space-between;
+
+  font-size: 30px;
+  font-weight: 600;
+}
+
+
+ /* ----------------------------------------  */
+ /* MAIN RESULTADOS  */
+
+ .main-resultado {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    min-height: 122vh;
+
+    background-color: rgb(4, 20, 4);
+    border-radius: 50px 50px 0px 0px;
+    border-top: 1px solid white;
+    color: white;
+
+    align-items: center;
+ }
+
+ .boton-reintentar__resultado {
+    display: flex;
+    width: 300px;
+    height: 50px;
+
+    margin-top: 50px;
+    padding: 10px;
+    gap: 20px;
+
+    border: none;
+    border-radius: 40px;
+    background-color: rgb(210, 189, 26);
+
+    justify-content: center;
+    align-items: center;
+
+    font-size: 25px;
+    font-weight: 600;
+    cursor: pointer;
+ }
+
+ .boton-reintentar__resultado:hover {
+    background-color:rgb(148, 134, 27);
+ }
+
+ .compartir-resultado {
+    display: flex;
+    width: 100%;
+    height: 70px;
+
+    margin-top: 40px;
+    margin-bottom: 40px;
+
+    align-items: center;
+    justify-content: center;
+ }
+
+
+ .tabla__resultado {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+ }
+
+ .tabla-items__resultados {
+  display: flex;
+  width: 100%;
+  height: 40px;
+
+  padding:10px;
+  margin-bottom: 10px;
+
+  border-bottom: 2px solid white;
+
+  justify-content: space-between;
+  font-size: 20px;
+  font-weight: 600;
+ }
+
+ .boton-mostrar__resultados {
+  margin-top: 100px;
+
+  background-color: transparent;
+  border: none;
+  border-bottom:2px solid white ;
+
+  color: white;
+  font-size: 30px;
+  font-weight: 600;
+  cursor: pointer;
+
+ }
+
+
