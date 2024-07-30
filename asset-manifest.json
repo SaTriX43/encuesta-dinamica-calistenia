@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/encuesta-dinamica-calistenia/static/css/main.c9950b07.css",
+    "main.js": "/encuesta-dinamica-calistenia/static/js/main.b10168f5.js",
+    "static/media/tarea-icon.png": "/encuesta-dinamica-calistenia/static/media/tarea-icon.3fa08c35cfd1f42de8e3.png",
+    "index.html": "/encuesta-dinamica-calistenia/index.html",
+    "main.c9950b07.css.map": "/encuesta-dinamica-calistenia/static/css/main.c9950b07.css.map",
+    "main.b10168f5.js.map": "/encuesta-dinamica-calistenia/static/js/main.b10168f5.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c9950b07.css",
+    "static/js/main.b10168f5.js"
+  ]
+}
